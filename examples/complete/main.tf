@@ -12,7 +12,7 @@ provider "aws" {
 
 locals {
   domain_name = "sosokumladze.cloud" # trimsuffix(data.aws_route53_zone.this.name, ".")
-  subdomain   = "suzanne"
+  subdomain   = "test"
 }
 
 module "cloudfront" {
